@@ -15,7 +15,7 @@ export const Hero: React.FC<HeroProps> = ({
     {
       id: 'academic',
       title: 'ACADEMIC EXCELLENCE',
-      description: 'CBSE curriculum with a strong focus on knowledge, analytical thinking and holistic development.',
+      description: 'CBSE curriculum with a strong focus on knowledge, analytical thinking and intellectual excellence.',
       icon: (
         <svg className="w-5 h-5 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-[#d97706]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
           <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
@@ -39,7 +39,7 @@ export const Hero: React.FC<HeroProps> = ({
     },
     {
       id: 'growth',
-      title: 'HOLISTIC GROWTH',
+      title: 'ALL-ROUND DEVELOPMENT',
       description: 'Nurturing arts, athletic prowess, leadership, public speaking and moral life skills for life.',
       icon: (
         <svg className="w-5 h-5 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-[#d97706]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
