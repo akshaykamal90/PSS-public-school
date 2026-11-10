@@ -8,6 +8,7 @@ import { Navbar } from './components/Navbar.tsx';
 import { Hero } from './components/Hero.tsx';
 import { AboutSection } from './components/AboutSection.tsx';
 import { NewsEventsSection } from './components/NewsEventsSection.tsx';
+import { InstitutionSection } from './components/InstitutionSection.tsx';
 import { PrincipalMessageSection } from './components/PrincipalMessageSection.tsx';
 import { Footer } from './components/Footer.tsx';
 import { ComingSoonModal } from './components/ComingSoonModal.tsx';
@@ -79,6 +80,11 @@ export default function App() {
           onViewAllEvents={() => handleNavigate('School Events Calendar 2024-25')}
           onOpenLiveUpdates={() => setNoticeboardModalOpen(true)}
           onOpenAdmission={() => setAdmissionModalOpen(true)}
+        />
+
+        {/* Institution Section (Building + Stats) */}
+        <InstitutionSection
+          onViewCertifications={() => handleNavigate('CBSE Certifications & Registration')}
         />
 
         {/* Principal's Message Section */}

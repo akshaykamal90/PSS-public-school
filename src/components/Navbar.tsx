@@ -83,7 +83,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       <div className="max-w-[1720px] mx-auto flex items-center justify-between gap-2 sm:gap-3 lg:gap-4 relative">
         
         {/* Floating Dark Capsule Pill Bar - Order: Logo -> Home-Contact -> Admission Enquiry -> Banner (z-30 so it sits in front of mobile banner) */}
-        <div className="w-full bg-slate-950 text-white rounded-full px-2.5 sm:px-3 lg:px-3.5 py-1.5 sm:py-2 shadow-[0_8px_30px_rgba(0,0,0,0.22)] border border-slate-800 flex items-center justify-between gap-2 sm:gap-3 lg:gap-3.5 transition-all pointer-events-auto relative z-30">
+        <div className="w-full bg-[#0f2b5c] text-white rounded-full px-2.5 sm:px-3 lg:px-3.5 py-1.5 sm:py-2 shadow-[0_8px_30px_rgba(0,0,0,0.22)] border border-[#1a3d6e] flex items-center justify-between gap-2 sm:gap-3 lg:gap-3.5 transition-all pointer-events-auto relative z-30">
           
           {/* 1. LOGO: Circular White Crest + School Title */}
           <div 
@@ -240,7 +240,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
       {/* Mobile / Tablet Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden mt-2 max-w-[1720px] mx-auto bg-slate-950 text-white rounded-3xl border border-slate-800 p-4 shadow-2xl animate-fade-in pointer-events-auto">
+        <div className="lg:hidden mt-2 max-w-[1720px] mx-auto bg-[#0f2b5c] text-white rounded-3xl border border-[#1a3d6e] p-4 shadow-2xl animate-fade-in pointer-events-auto">
           {/* Mobile School Values Banner */}
           <div className="mb-3.5 p-3 bg-gradient-to-r from-[#082046] to-[#0f3b7a] rounded-2xl text-white border border-blue-600/40">
             <span className="text-[10px] font-bold uppercase tracking-widest text-amber-300 block mb-1.5">
@@ -280,7 +280,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             })}
           </nav>
 
-          <div className="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between">
+          <div className="mt-4 pt-3 border-t border-[#1a3d6e] flex items-center justify-between">
             <span className="text-xs text-slate-400 font-medium">Follow PSS School:</span>
             <div className="flex items-center gap-2.5">
               <button 

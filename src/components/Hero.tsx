@@ -53,7 +53,7 @@ export const Hero: React.FC<HeroProps> = ({
   ];
 
   return (
-    <section className="relative w-full overflow-hidden bg-[#f4f7fb] min-h-screen flex flex-col justify-between pt-16 sm:pt-20">
+    <section className="relative w-full overflow-hidden bg-[#f4f7fb] flex flex-col pt-16 sm:pt-20">
       {/* Background Campus Photo & Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -68,7 +68,7 @@ export const Hero: React.FC<HeroProps> = ({
       </div>
 
       {/* Hero Content Area - Enhanced Spacing & Scale */}
-      <div className="relative z-10 w-full max-w-[1720px] mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-6 lg:pt-8 pb-6 flex-1 flex flex-col justify-center">
+      <div className="relative z-10 w-full max-w-[1720px] mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-6 lg:pt-8 pb-6 flex-1 flex flex-col justify-center min-h-[calc(100vh-4rem)] sm:min-h-[calc(100vh-5rem)]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           
           {/* Left Column: Sizable Typography & Slogan */}
@@ -81,7 +81,7 @@ export const Hero: React.FC<HeroProps> = ({
             </div>
 
             {/* Main Headline - Fluid scaling for all viewports */}
-            <h1 className="font-serif text-black font-black text-3xl xs:text-4xl sm:text-6xl lg:text-[68px] xl:text-[76px] text-[#0f2b5c] leading-[1.05] tracking-tight drop-shadow-xs">
+            <h1 className="font-serif font-black text-3xl xs:text-4xl sm:text-6xl lg:text-[68px] xl:text-[76px] text-[#0f2b5c] leading-[1.05] tracking-tight drop-shadow-xs">
               PSS PUBLIC <br />
               SCHOOL
             </h1>
