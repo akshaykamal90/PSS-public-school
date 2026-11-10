@@ -30,6 +30,11 @@ export default function App() {
       return;
     }
 
+    if (page.toLowerCase() === 'instagram') {
+      window.open('https://www.instagram.com/psss.vayalar/', '_blank', 'noopener,noreferrer');
+      return;
+    }
+
     if (page.toLowerCase().includes('admission enquiry') || page === 'Admissions') {
       setAdmissionModalOpen(true);
       return;
